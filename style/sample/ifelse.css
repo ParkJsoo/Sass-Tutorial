@@ -1,0 +1,13 @@
+h1 {
+  /*
+    @if $condition {
+        color: red;
+    }
+    
+    @if $wanted-color == tomato {
+        color: tomato;
+    }
+    */
+  color: yellow;
+}
+/*# sourceMappingURL=ifelse.css.map */

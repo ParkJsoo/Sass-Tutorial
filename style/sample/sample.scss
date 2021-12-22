@@ -1,0 +1,120 @@
+/*
+얘는 원래 있는 거에요
+이 주석 안에는 내용을 얼마든지 작성할 수 있어요
+라인 수 제한도 없어요
+*/
+
+// sass에서만 사용 가능한 주석
+// 한줄 짜리 주석
+
+/*
+.container {
+    background-color: red;
+
+    h1 {
+        color: orange;
+    }
+    
+    p {
+        color: yellow;
+
+        span {
+            color: green;
+        }
+    }
+}
+*/
+
+/*
+p {
+    font: {
+        style: italic;
+        weight: 900;
+        size: 32px;
+    }
+}
+*/
+
+/*
+.first-btn:hover {
+    background-color: purple;
+}
+
+.second-btn {
+    &:hover {
+        background: {
+          color: red;  
+        };
+    }
+}
+*/
+
+/*
+$main-color: orange;
+$font-color: white;
+$btn-width: 100px;
+
+button {
+    &:nth-child(1) {
+        color: $font-color;
+        background-color: $main-color;
+        width: $btn-width;
+    }
+    &:nth-child(2) {
+        color: $font-color;
+        background-color: $main-color;
+        width: 200px;
+    }
+    &:nth-child(3) {
+        color: $font-color;
+        background-color: $main-color;
+        width: 300px;
+    }
+}
+*/
+
+/*
+@mixin box-style($bg-color: blue, $font-color: orange) {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-color;
+    color: $font-color
+}
+
+.one {
+    @include box-style($font-color: cyan);
+}
+
+.two {
+    @include box-style(yellow, red);
+}
+*/
+
+/*
+@mixin btn-style($hv-color) {
+    @content;
+    width: 100px;
+    height: 25px;
+
+    &:hover {
+        background-color: $hv-color;
+    }
+}
+
+.one {
+    @include btn-style(orange) {
+        color: white;
+        background-color: tomato;
+    }
+}
+
+.two {
+    @include btn-style(greenyellow) {
+        color: tomato;
+        background-color: teal;
+    }
+}
+*/

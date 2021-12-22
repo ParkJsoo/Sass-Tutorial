@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAA;;;;EAIE;AAKF;;;;;;;;;;;;;;;;EAgBE;AAEF;;;;;;;;EAQE;AAEF;;;;;;;;;;;;EAYE;AAEF;;;;;;;;;;;;;;;;;;;;;;EAsBE;AAEF;;;;;;;;;;;;;;;;;;EAkBE;AAEF;;;;;;;;;;;;;;;;;;;;;;;;EAwBE",
+    "sources": [
+        "sample.scss"
+    ],
+    "names": [],
+    "file": "sample.css"
+}
